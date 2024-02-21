@@ -1,0 +1,263 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M813.7876659923163 86.10047883965649L923.8643381629793 46.035846682456246 773.7230338351161-23.976193331006485z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M941.27 545.77 a171.53 171.53 0 1 0 343.06 0 a171.53 171.53 0 1 0 -343.06 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M383.58183704776684 194.66234862123488L366.7456486199602 331.78209970394914 503.86539970267444 348.6182881317558 520.701588130481 211.49853704904152z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M311.2705932174936 89.99052839172732L151.15051602597404 64.62999958102692 125.78998721527364 224.7500767725465 285.91006440679325 250.11060558324692z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M772.898%2c414.748C799.108%2c415.004%2c821.742%2c398.618%2c835.319%2c376.197C849.468%2c352.831%2c856.671%2c323.321%2c842.347%2c300.062C828.505%2c277.585%2c799.295%2c274.953%2c772.898%2c274.839C746.222%2c274.724%2c716.174%2c276.611%2c702.407%2c299.46C688.354%2c322.784%2c698.347%2c351.769%2c712.552%2c375C726.019%2c397.025%2c747.083%2c414.496%2c772.898%2c414.748' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M765.93%2c79.139C793.56%2c79.563%2c818.203%2c62.989%2c832.114%2c39.113C846.127%2c15.063%2c849.045%2c-14.951%2c834.623%2c-38.758C820.643%2c-61.835%2c792.842%2c-72.062%2c765.93%2c-70.137C742.085%2c-68.432%2c724.451%2c-50.65%2c712.379%2c-30.016C700.15%2c-9.114%2c692.503%2c15.396%2c703.169%2c37.137C715.052%2c61.359%2c738.953%2c78.725%2c765.93%2c79.139' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M143.68971447391056 159.86733157461583L238.5925000349734 42.67215153800365 121.39731999836121-52.230634023059196 26.49453443729837 64.96454601355299z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M351.4 53.12 a137.92 137.92 0 1 0 275.84 0 a137.92 137.92 0 1 0 -275.84 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-62.43 380.12 a114.4 114.4 0 1 0 228.8 0 a114.4 114.4 0 1 0 -228.8 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.timer-settings {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.setting {
+    margin: 0 10px;
+}
+
+.setting label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.setting input {
+    width: 4rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background-color: #ccc;
+    transition: background-color 0.3s;
+}
+
+.setting input:focus {
+    outline: none;
+    background-color: #bcbbbb;
+}
+
+.timer-display {
+    font-size: 6rem;
+    margin-bottom: 20px;
+}
+
+.timer-display span {
+    display: inline-block;
+    width: 5rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background-color: rgb(245, 140, 140);
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timer-display span#timer-minutes {
+    margin-right: 1rem;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(245, 140, 140);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button-secondary {
+    background-color: #ccc;
+    color: #333;
+}
+
+.button-secondary:hover {
+    background-color: #bbb;
+}
+
+.dark-mode-toggle {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-mode-toggle label {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-switch input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked + .toggle-slider {
+    background-color: rgb(245, 140, 140);
+}
+
+input[type="checkbox"]:checked + .toggle-slider:before {
+    transform: translateX(26px);
+}
+
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.dark-mode-toggle label {
+    margin-right: 1rem;
+}
+
+/* Dark Mode Styles */
+
+body.dark-mode .timer-display span {
+    background-color: rgb(245, 140, 140);
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    color: #f5f5f5;
+}
+
+body.dark-mode .button {
+    background-color: #333;
+    border: 1px solid rgb(69, 69, 69);
+}
+
+body.dark-mode .button:hover {
+    background-color: #666;
+}
+
+body.dark-mode .button-secondary {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+body.dark-mode .button-secondary:hover {
+    background-color: #e0e0e0;
+}
+
+body.dark-mode .toggle-slider {
+    background-color: #f5f5f5;
+}
+
+body.dark-mode input:checked + .toggle-slider {
+    background-color: rgb(245, 140, 140);
+}
+
+body.dark-mode input:focus + .toggle-slider {
+    box-shadow: 0 0 1px #f5f5f5;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+    .timer-settings {
+        flex-wrap: wrap;
+    }
+
+    .setting {
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .timer-display {
+        font-size: 4rem;
+    }
+
+    .timer-display span {
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .button {
+        font-size: 1rem;
+    }
+}
+
